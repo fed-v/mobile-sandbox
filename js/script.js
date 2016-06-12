@@ -1,12 +1,12 @@
 // I want my console to be global
 var console = {};
 
-window.onload = function(e) {    
+window.onload = function() {    
         
     createConsole();
     
-    console.log("test");
-    console.log("boobs", "error");
+    console.log("Normal text.");
+    console.log("Error text.", "error");
       
 }
 
