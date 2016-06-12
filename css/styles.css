@@ -17,3 +17,20 @@ body {
     margin: auto;
     background-color: #DDD;
 }
+
+#console {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFF;
+    padding-left: 15px;
+    border-top: 1px solid #CCC;
+}
+
+#console p {
+    margin: 5px 0px;
+}
+
+.error {
+    color: red;
+}
