@@ -1,6 +1,17 @@
+// I want my console to be global
+var console = {};
+
 window.onload = function(e) {    
         
-    var console = {
+    createConsole();
+    
+    console.log("test");
+    console.log("boobs", "error");
+      
+}
+
+function createConsole() {
+    console = {
         log: function(txt, type='text') {
                  var para = document.createElement('p');
                  var node = document.createTextNode(txt);
@@ -15,11 +26,7 @@ window.onload = function(e) {
              }
     };
     
-    console.log("test");
-    console.log("boobs", "error");
-      
 }
-
 
 // jQuery onload function
 $(document).ready(function() {
