@@ -1,0 +1,19 @@
+/*/////////////////////////////////////////////////////
+///     General Styles
+/////////////////////////////////////////////////////*/
+
+@import 'clean.css';
+@import 'normalize.css';
+
+
+body {
+    background-color: #EEE;
+}
+
+
+#main-wrapper {
+    width: 800px;
+    min-height:600px;
+    margin: auto;
+    background-color: #DDD;
+}
